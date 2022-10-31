@@ -55,6 +55,7 @@ git push --set-upstream origin feature/[Your branch name]
 ### Check the image have been pushed to
 [Google Container Registry] (https://console.cloud.google.com/gcr/images/non-prod-pdz/EU/frontend-propitix?project=non-prod-pdz&authuser=1&gcrImageListsize=30) (Depending on the environment. Either non-prod or prod)
 
+
 ## pulling the image
 ```
 docker pull eu.gcr.io/$environment/frontend-propitix:$tag-version
@@ -73,5 +74,5 @@ Default web root:
 
 ## If you require permissions to GCP, or Gitlab resources, please talk to dare@propitix.com
 
-Updated
+Updated 2
 
